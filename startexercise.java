@@ -60,7 +60,7 @@ public class startexercise extends AppCompatActivity {
                 }
                 long millisinput = Long.parseLong(input) * 60000;
                 if (millisinput == 0) {
-                    Toast.makeText(startexercise.this, "Please enter valid no.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(startexercise.this, "Please enter a valid no.", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 setTime(millisinput);
